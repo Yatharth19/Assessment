@@ -16,25 +16,6 @@ const connectDB = callback => {
         //         console.log('Sample data loaded successfully');
         // });
 
-
-
-
-        // _db.once('open', async function() {
-        //     console.log('here');
-        //     await User.insertMany(sampleData, function(err, docs) {
-        //         if (err) console.log(err);
-        //         console.log('Sample data loaded successfully');
-        //     });
-        //     }
-        // );
-        // console.log(sample_data[0])
-
-
-
-
-
-
-
         console.log('DB connected');
         callback();//Calling the callback function (start the server)
     }).catch((error) => {
