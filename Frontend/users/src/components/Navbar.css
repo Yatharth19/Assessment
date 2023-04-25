@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+    height: 10vh;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+}
+
+li {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+Link {
+    color: white;
+}
